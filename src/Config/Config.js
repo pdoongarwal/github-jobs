@@ -1,5 +1,5 @@
 const Config = {
-  apiUrl: "https://jobs.github.com",
+  apiUrl: "https://github-jobs-proxy.appspot.com/",
 };
 
 export default Config;
