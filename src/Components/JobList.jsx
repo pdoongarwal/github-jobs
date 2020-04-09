@@ -45,7 +45,7 @@ export default class JobList extends React.Component {
         bordered={true}
         dataSource={jobs}
         renderItem={(job) => <JobListItem job={job} />}
-        pagination={{ pageSize: 10 }}
+        pagination={{ pageSize: 10, showTotal: (total) => total }}
         header={<JobFilterForm onSubmit={this.onSubmit} />}
         loading={isLoading}
       />
